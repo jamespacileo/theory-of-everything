@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "theory-of-everything"
+version = "0.1.0"
+description = ""
+authors = ["James Pacileo <608868+jamespacileo@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+numpy = "^1.22.1"
+astropy = "^5.0"
+matplotlib = "^3.5.1"
+ipympl = "^0.8.6"
+einsteinpy = "^0.4.0"
+astroquery = "^0.4.5"
+Shapely = "^1.8.0"
+descartes = "^1.1.0"
+sympy = "^1.9"
+poisson-disc = "^0.2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
